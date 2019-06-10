@@ -1,0 +1,22 @@
+.login_content {
+    color: #ffffff !important;
+    text-shadow: none !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.5) !important;
+    padding: 30px 15px !important;
+    background: #366097;
+    border-radius: 5px;
+}
+.login_content .logo {
+    margin-top: -8px !important;
+}
+body {
+    background: whitesmoke !important;
+}
+form {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.login_content h1:before, .login_content h1:after
+{
+    background: #d2d3d2 !important;
+}

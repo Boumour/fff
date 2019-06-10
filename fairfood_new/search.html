@@ -1,0 +1,432 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+      <title>Fair Food Forager</title>
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="css/custom.css" media="all">
+   </head>
+   <body>
+      <div class="main-wraper">
+         <header>
+            <div class="container-fluid">
+               <div class="navbar-header col-sm-12">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                  <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="img-responsive" alt=""></a>
+                  <ul class="nav navbar-nav navbar-right">
+                     <li><a href="login.html">Login</a></li>
+                     <li><a href="register.html">Register</a></li>
+                  </ul>
+               </div>
+               <!-- Globle Menu -->
+               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <div class="wrapper">
+                     <form class="navbar-form navbar-left hidden-xs pull-right" >
+                        <div class="form-group">
+                           <input type="text" class="form-control" name="keywords">
+                           <img src="images/search-icon.png" class="img-responsive" alt="" />
+                        </div>
+                     </form>
+                     <ul class="nav navbar-nav pull-right">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li class="dropdown">
+                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                              aria-expanded="false">about<span class="caret"></span></a>
+                           <ul class="dropdown-menu">
+                              <li><a href="#">About Us</a></li>
+                              <li><a href="#">FAQ</a></li>
+                              <li><a href="#">Join the Movement</a></li>
+                              <li><a href="#">Suggest a Venue</a></li>
+                              <li><a href="#">Get Involved</a></li>
+                              <li><a href="#">Media</a></li>
+                           </ul>
+                        </li>
+                        <li class="dropdown">
+                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                              aria-expanded="false">Articles<span class="caret"></span></a>
+                           <ul class="dropdown-menu">
+                              <li><a href="blog.html">Blog</a></li>
+                              <li><a href="#">Recipes</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="app-page.html">APP</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <div class="homebanner">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="100000">
+               <!-- Indicators -->
+               <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+               </ol>
+               <!-- Wrapper for slides -->
+               <div class="carousel-inner">
+                  <div class="item active"><img src="images/banner-img-5.jpg" alt="banner img"></div>
+                  <div class="item"><img src="images/banner-img-7.jpg" alt="banner img"></div>
+               </div>
+            </div>
+            <div class="home-search-outer">
+            <div class="col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
+               <div class="home-search">
+                  <div class="search-title">
+                     <h3>Find ethical &amp; sustainable food</h3>
+                     <a href="#" class="text-uppercase get-app-btn">get the app</a>
+                  </div>
+                  <form class="" method="get" action="">
+                     <div class="form-group">
+                        <input type="text" class="form-control" id="search" name="search" placeholder="Search by suburb">
+                        <button type="submit" class="search-button">search</button>
+                     </div>
+                  </form>
+               </div>
+               </div>
+            </div>
+         </div>
+         <section class="content-area">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-8 col-xs-12">
+                     <h1>Search</h1>
+                     <div class="addthis_sharing_toolbox"></div>
+                     <form class="search-widget form-inline" >
+                        <input type="text" class="form-control" id="search-input" name="keywords" placeholder="What are you looking for?">
+                        <button type="submit" class="btn"><i class="fa fa-search"></i><span class="hidden-sm hidden-xs"> Search</span></button>
+                     </form>
+                     <p><strong>Showing results for "vegan"</strong> (624 matches)</p>
+                     <div id="map-canvas" class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.8903364675957!2d115.26664461478292!3d-8.510027793881958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOMKwMzAnMzYuMSJTIDExNcKwMTYnMDcuOCJF!5e0!3m2!1sen!2sin!4v1555918182169!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                     </div>
+                     <div class="review-widget premium">
+                        <span class="rating">8.0</span> <a href="#"> <img src="images/16feet3-600x392.jpg" alt="16 Feet Espresso" class="img" align="left"> </a> 
+                        <a href="/listing/16-feet-espresso">
+                           <h3 class="title">16 Feet Espresso</h3>
+                        </a>
+                        <p class="category"> Cafes </p>
+                        <p class="location"> <a href="#"> <i class="fa fa-map-marker"></i> 91a Lawrence Hargrave Drive
+                           ,
+                           Stanwell Park
+                           NSW 
+                           Australia </a> 
+                        </p>
+                        <p class="description"> A cafe with Great coffee, cool tunes, beautiful sweets, they sell keep cups, vegan meals and are charitable.... </p>
+                        <ul class="category-icons">
+                           <li> <a href="#" title="Charitable" data-toggle="tooltip" data-placement="bottom" title="Charitable"><img src="images/charitable.png" alt="Charitable"></a> </li>
+                           <li> <a href="#" title="Cruelty Free / Vegan" data-toggle="tooltip" data-placement="bottom" title="Cruelty Free / Vegan"><img src="images/vegan.png" alt="Cruelty Free / Vegan"></a> </li>
+                           <li> <a href="#" title="Home Made" data-toggle="tooltip" data-placement="bottom" title="Home Made"><img src="images/homemade.png" alt="Home Made"></a> </li>
+                           <li> <a href="#" title="Reduced Plastics" data-toggle="tooltip" data-placement="bottom" title="Reduced Plastics"><img src="images/reduced-plastics.png" alt="Reduced Plastics"></a> </li>
+                           <li> <a href="#" title="Vegetarian" data-toggle="tooltip" data-placement="bottom" title="Vegetarian"><img src="images/vegetarian.png" alt="Vegetarian"></a> </li>
+                        </ul>
+                     </div>
+                     <div class="review-widget premium">
+                        <span class="rating">--</span> <a href="/index.php/listing/1847-birmingham"> <img src="images/1847h-600x392.jpg" alt="1847 Birmingham" class="img" align="left"> </a> 
+                        <a href="#">
+                           <h3 class="title">1847 Birmingham</h3>
+                        </a>
+                        <p class="category"> Restaurants </p>
+                        <p class="location"> <a href="#"> <i class="fa fa-map-marker"></i> 26 Great Western Arcade
+                           ,
+                           Colmore Row
+                           Birmingham 
+                           United Kingdom </a> 
+                        </p>
+                        <p class="description"> Vegetarian restaurant , using fresh local seasonal produce. (vegetarian,vegan, gluten free menus ) </p>
+                        <ul class="category-icons">
+                           <li> <a href="#" title="Cruelty Free / Vegan" data-toggle="tooltip" data-placement="bottom" title="Cruelty Free / Vegan"><img src="images/vegan.png" alt="Cruelty Free / Vegan"></a> </li>
+                           <li> <a href="#" title="Local Produce" data-toggle="tooltip" data-placement="bottom" title="Local Produce"><img src="images/local-produce.png" alt="Local Produce"></a> </li>
+                           <li> <a href="#" title="Vegetarian" data-toggle="tooltip" data-placement="bottom" title="Vegetarian"><img src="images/vegetarian.png" alt="Vegetarian"></a> </li>
+                        </ul>
+                     </div>
+                     <div class="review-widget premium">
+                        <span class="rating">--</span> <a href="#"> <img src="images/1847a-600x392.jpg" alt="1847 Bristol" class="img" align="left"> </a> 
+                        <a href="#">
+                           <h3 class="title">1847 Bristol</h3>
+                        </a>
+                        <p class="category"> Restaurants </p>
+                        <p class="location"> <a href="#"> <i class="fa fa-map-marker"></i> 25 St Stephen's Street 
+                           ,
+                           Bristol
+                           Bristol 
+                           BS1 1JX 
+                           United Kingdom </a> 
+                        </p>
+                        <p class="description"> Dandelion – By1847 is an exclusive cocktail and champagne bar positioned directly underneath 1847 Brighton... </p>
+                        <ul class="category-icons">
+                           <li> <a href="#" title="Cruelty Free / Vegan" data-toggle="tooltip" data-placement="bottom" title="Cruelty Free / Vegan"><img src="images/vegan.png" alt="Cruelty Free / Vegan"></a> </li>
+                           <li> <a href="#" title="Ethically Produced" data-toggle="tooltip" data-placement="bottom" title="Ethically Produced"><img src="images/cruelty-free.png" alt="Ethically Produced"></a> </li>
+                           <li> <a href="#" title="Local Produce" data-toggle="tooltip" data-placement="bottom" title="Local Produce"><img src="images/local-produce.png" alt="Local Produce"></a> </li>
+                           <li> <a href="#" title="Vegetarian" data-toggle="tooltip" data-placement="bottom" title="Vegetarian"><img src="images/vegetarian.png" alt="Vegetarian"></a> </li>
+                        </ul>
+                     </div>
+                     <div class="review-widget premium">
+                        <span class="rating">--</span> <a href="#"> <img src="images/1847f-600x392.jpg" alt="1847 Manchester" class="img" align="left"> </a> 
+                        <a href="/listing/1847-manchester">
+                           <h3 class="title">1847 Manchester</h3>
+                        </a>
+                        <p class="category"> Restaurants </p>
+                        <p class="location"> <a href="#"> <i class="fa fa-map-marker"></i> Chapel Walks 
+                           ,
+                           Manchester
+                           Lancashire 
+                           M2 1HN 
+                           United Kingdom </a> 
+                        </p>
+                        <p class="description"> Vegetarian restaurant , using fresh local seasonal produce. (vegetarian,vegan, gluten free menus available... </p>
+                        <ul class="category-icons">
+                           <li> <a href="#" title="Cruelty Free / Vegan" data-toggle="tooltip" data-placement="bottom" title="Cruelty Free / Vegan"><img src="images/vegan.png" alt="Cruelty Free / Vegan"></a> </li>
+                           <li> <a href="#" title="Local Produce" data-toggle="tooltip" data-placement="bottom" title="Local Produce"><img src="images/local-produce.png" alt="Local Produce"></a> </li>
+                           <li> <a href="#" title="Vegetarian" data-toggle="tooltip" data-placement="bottom" title="Vegetarian"><img src="images/vegetarian.png" alt="Vegetarian"></a> </li>
+                        </ul>
+                     </div>
+                     <div class="review-widget premium">
+                        <span class="rating">8.7</span> <a href="#"> <img src="images/threemon1-600x392.jpg" alt="3 monkeys cafe" class="img" align="left"> </a> 
+                        <a href="#">
+                           <h3 class="title">3 monkeys cafe</h3>
+                        </a>
+                        <p class="category"> Cafes </p>
+                        <p class="location"> <a href="#"> <i class="fa fa-map-marker"></i> 131
+                           Darby st
+                           ,
+                           Cooks Hill
+                           NSW 
+                           2300 
+                           Australia </a> 
+                        </p>
+                        <p class="description"> </p>
+                        <ul class="category-icons">
+                           <li> <a href="#" title="Chemical Free / Organic" data-toggle="tooltip" data-placement="bottom" title="Chemical Free / Organic"><img src="images/chemical-free-organic.png" alt="Chemical Free / Organic"></a> </li>
+                           <li> <a href="#" title="Cruelty Free / Vegan" data-toggle="tooltip" data-placement="bottom" title="Cruelty Free / Vegan"><img src="images/vegan.png" alt="Cruelty Free / Vegan"></a> </li>
+                           <li> <a href="#" title="Gluten Free" data-toggle="tooltip" data-placement="bottom" title="Gluten Free"><img src="images/gluten-free.png" alt="Gluten Free"></a> </li>
+                           <li> <a href="#" title="Home Made" data-toggle="tooltip" data-placement="bottom" title="Home Made"><img src="images/homemade.png" alt="Home Made"></a> </li>
+                           <li> <a href="#" title="Local Produce" data-toggle="tooltip" data-placement="bottom" title="Local Produce"><img src="images/local-produce.png" alt="Local Produce"></a> </li>
+                           <li> <a href="#" title="Reduced Plastics" data-toggle="tooltip" data-placement="bottom" title="Reduced Plastics"><img src="images/reduced-plastics.png" alt="Reduced Plastics"></a> </li>
+                           <li> <a href="#" title="Vegetarian" data-toggle="tooltip" data-placement="bottom" title="Vegetarian"><img src="images/vegetarian.png" alt="Vegetarian"></a> </li>
+                        </ul>
+                     </div>
+                     <div class="search-advertise-img"> <img src="images/onya10.jpg" class="img-responsive" /> </div>
+                     <a href="#" class="btn green-btn shop-btn">Shop <i class="fa fa-shopping-cart"></i> </a>
+                     <div class="review-widget premium">
+                        <span class="rating">8.0</span> <a href="#"> <img src="images/8020_act_coffee-600x392.jpg" alt="80/20" class="img" align="left"> </a> 
+                        <a href="#">
+                           <h3 class="title">80/20</h3>
+                        </a>
+                        <p class="category"> Cafes </p>
+                        <p class="location"> <a href="#"> <i class="fa fa-map-marker"></i> 1/18 Lonsdale St
+                           ,
+                           Braddon
+                           ACT 
+                           Australia </a> 
+                        </p>
+                        <p class="description"> Many beautiful natural and seasonal vegetarian, vegan and paleo options. This place is good for you and pretty... </p>
+                        <ul class="category-icons">
+                           <li> <a href="#" title="Chemical Free / Organic" data-toggle="tooltip" data-placement="bottom" title="Chemical Free / Organic"><img src="images/chemical-free-organic.png" alt="Chemical Free / Organic"></a> </li>
+                           <li> <a href="#" title="Cruelty Free / Vegan" data-toggle="tooltip" data-placement="bottom" title="Cruelty Free / Vegan"><img src="images/vegan.png" alt="Cruelty Free / Vegan"></a> </li>
+                           <li> <a href="#" title="Local Produce" data-toggle="tooltip" data-placement="bottom" title="Local Produce"><img src="images/local-produce.png" alt="Local Produce"></a> </li>
+                           <li> <a href="#" title="Vegetarian" data-toggle="tooltip" data-placement="bottom" title="Vegetarian"><img src="images/vegetarian.png" alt="Vegetarian"></a> </li>
+                        </ul>
+                     </div>
+                     <div class="review-widget premium">
+                        <span class="rating">8.0</span> <a href="#"> <img src="images/apinch_qld_macaron-600x392.jpg" alt="A Pinch of Spice Catering" class="img" align="left"> </a> 
+                        <a href="#">
+                           <h3 class="title">A Pinch of Spice Catering</h3>
+                        </a>
+                        <p class="category"> Caterer </p>
+                        <p class="location"> <a href="#"> <i class="fa fa-map-marker"></i> 17 Santa Monica Ave
+                           ,
+                           Coolum Beach
+                           QLD 
+                           4573 
+                           Australia </a> 
+                        </p>
+                        <p class="description"> A Pinch of Spice Catering also specialise in gluten free; organic; vegan; vegetarian and raw dietary needs. We... </p>
+                        <ul class="category-icons">
+                           <li> <a href="#" title="Chemical Free / Organic" data-toggle="tooltip" data-placement="bottom" title="Chemical Free / Organic"><img src="images/chemical-free-organic.png" alt="Chemical Free / Organic"></a> </li>
+                           <li> <a href="#" title="Cruelty Free / Vegan" data-toggle="tooltip" data-placement="bottom" title="Cruelty Free / Vegan"><img src="images/vegan.png" alt="Cruelty Free / Vegan"></a> </li>
+                           <li> <a href="#" title="Ethically Produced" data-toggle="tooltip" data-placement="bottom" title="Ethically Produced"><img src="images/cruelty-free.png" alt="Ethically Produced"></a> </li>
+                           <li> <a href="#" title="Gluten Free" data-toggle="tooltip" data-placement="bottom" title="Gluten Free"><img src="images/gluten-free.png" alt="Gluten Free"></a> </li>
+                           <li> <a href="#" title="Local Produce" data-toggle="tooltip" data-placement="bottom" title="Local Produce"><img src="images/local-produce.png" alt="Local Produce"></a> </li>
+                           <li> <a href="#" title="Vegetarian" data-toggle="tooltip" data-placement="bottom" title="Vegetarian"><img src="images/vegetarian.png" alt="Vegetarian"></a> </li>
+                        </ul>
+                     </div>
+                     <div class="review-widget premium">
+                        <span class="rating">8.3</span> <a href="#"> <img src="images/AL3-600x392.jpg" alt="About Life - Double Bay" class="img" align="left"> </a> 
+                        <a href="#">
+                           <h3 class="title">About Life - Double Bay</h3>
+                        </a>
+                        <p class="category"> Cafes&nbsp;|&nbsp;
+                           Restaurants 
+                        </p>
+                        <p class="location"> <a href="#"> <i class="fa fa-map-marker"></i> 11 Kiaora Lane
+                           ,
+                           Double Bay
+                           NSW 
+                           2028 
+                           Australia </a> 
+                        </p>
+                        <p class="description"> About Life is a natural supermarket and wholefoods cafe with over 10,000 lines of the highest quality natural,... </p>
+                        <ul class="category-icons">
+                           <li> <a href="#" title="Chemical Free / Organic" data-toggle="tooltip" data-placement="bottom" title="Chemical Free / Organic"><img src="images/chemical-free-organic.png" alt="Chemical Free / Organic"></a> </li>
+                           <li> <a href="#" title="Cruelty Free / Vegan" data-toggle="tooltip" data-placement="bottom" title="Cruelty Free / Vegan"><img src="images/vegan.png" alt="Cruelty Free / Vegan"></a> </li>
+                           <li> <a href="#" title="Ethically Produced" data-toggle="tooltip" data-placement="bottom" title="Ethically Produced"><img src="images/cruelty-free.png" alt="Ethically Produced"></a> </li>
+                           <li> <a href="#" title="Gluten Free" data-toggle="tooltip" data-placement="bottom" title="Gluten Free"><img src="images/gluten-free.png" alt="Gluten Free"></a> </li>
+                           <li> <a href="#" title="Local Produce" data-toggle="tooltip" data-placement="bottom" title="Local Produce"><img src="images/local-produce.png" alt="Local Produce"></a> </li>
+                           <li> <a href="#" title="Sustainable Seafood" data-toggle="tooltip" data-placement="bottom" title="Sustainable Seafood"><img src="images/sustainable-seafood.png" alt="Sustainable Seafood"></a> </li>
+                           <li> <a href="#" title="Vegetarian" data-toggle="tooltip" data-placement="bottom" title="Vegetarian"><img src="images/vegetarian.png" alt="Vegetarian"></a> </li>
+                        </ul>
+                     </div>
+                     <div class="review-widget premium">
+                        <span class="rating">8.3</span> <a href="#"> <img src="images/AL6-600x392.jpg" alt="About Life - Rozelle" class="img" align="left"> </a> 
+                        <a href="#">
+                           <h3 class="title">About Life - Rozelle</h3>
+                        </a>
+                        <p class="category"> Cafes&nbsp;|&nbsp;
+                           Groceries 
+                        </p>
+                        <p class="location"> <a href="#"> <i class="fa fa-map-marker"></i> 605 Darling st
+                           Sydney ,
+                           Rozelle NSW 2039 Australia </a> 
+                        </p>
+                        <p class="description"> About Life is a natural supermarket and wholefoods cafe with over 10,000 lines of the highest quality natural,... </p>
+                        <ul class="category-icons">
+                           <li> <a href="#" title="Chemical Free / Organic" data-toggle="tooltip" data-placement="bottom" title="Chemical Free / Organic"><img src="images/chemical-free-organic.png" alt="Chemical Free / Organic"></a> </li>
+                           <li> <a href="#" title="Cruelty Free / Vegan" data-toggle="tooltip" data-placement="bottom" title="Cruelty Free / Vegan"><img src="images/vegan.png" alt="Cruelty Free / Vegan"></a> </li>
+                           <li> <a href="#" title="Ethically Produced" data-toggle="tooltip" data-placement="bottom" title="Ethically Produced"><img src="images/cruelty-free.png" alt="Ethically Produced"></a> </li>
+                           <li> <a href="#" title="Gluten Free" data-toggle="tooltip" data-placement="bottom" title="Gluten Free"><img src="images/gluten-free.png" alt="Gluten Free"></a> </li>
+                           <li> <a href="#" title="Local Produce" data-toggle="tooltip" data-placement="bottom" title="Local Produce"><img src="images/local-produce.png" alt="Local Produce"></a> </li>
+                           <li> <a href="#" title="Sustainable Seafood" data-toggle="tooltip" data-placement="bottom" title="Sustainable Seafood"><img src="images/sustainable-seafood.png" alt="Sustainable Seafood"></a> </li>
+                           <li> <a href="#" title="Vegetarian" data-toggle="tooltip" data-placement="bottom" title="Vegetarian"><img src="images/vegetarian.png" alt="Vegetarian"></a> </li>
+                        </ul>
+                     </div>
+                     <nav>
+                        <ul class="pagination">
+                           <li class="active"><a href="#">1</a></li>
+                           <li ><a href="#">2</a></li>
+                           <li ><a href="#">3</a></li>
+                           <li ><a href="#">4</a></li>
+                           <li ><a href="#">5</a></li>
+                           <li ><a href="#">6</a></li>
+                           <li ><a href="#">7</a></li>
+                           <li> <a href="#" aria-label="Next"> <span aria-hidden="true">&raquo;</span> </a> </li>
+                        </ul>
+                     </nav>
+                  </div>
+                  <div class="col-sm-4 col-xs-12 sidebaar_right">
+                     <div class="sidebar-widget">
+                        <a class="btn btn-advertise" href="list-a-business.html">
+                           <h3>List a Business</h3>
+                           Click here to find out more &gt; 
+                        </a>
+                     </div>
+                     <div class="sidebar-logos"> <a href="#"> <img alt="Badge" src="images/Download_on_the_App_Store_Badge_US-UK_135x40.svg" class="img img-responsive"> </a> <a href="#"> <img alt="Badge" src="images/en_badge_web_generic.png" class="img img-responsive"> </a> </div>
+                     <div class="sidebar-content">
+                        <p><a class="btn btn-advertise" href="join-newsletter.html">Sign Up For Our Newsletter</a></p>
+                     </div>
+                     <div class="sidebar-content">
+                        <p><a href="#" target="_blank"><img alt="" src="images/patreon1.jpg"></a></p>
+                     </div>
+                     <div class="sidebar-content">
+                        <p>
+                           <iframe allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" height="250" src="https://www.youtube.com/embed/X8TYuyQg1qk" width="350"></iframe>
+                        </p>
+                        <p><a href="https://www.youtube.com/embed/X8TYuyQg1qk">Read More &gt;</a></p>
+                     </div>
+                     <div class="post-wraper">
+                        <h3>Popular Articles</h3>
+                        <hr>
+                        <div class="popular-post">
+                           <div class="post-img"> <a href="#"> <img src="images/22_Top_Tips_to_Follow_this_plasticfreejuly-45x45.png" class="img img-responsive" alt="22 Top Tips for this Plastic Free July"> </a></div>
+                           <div class="post-detail">
+                              <h3 class="title"><a href="#">22 Top Tips for this Plastic Free July</a></h3>
+                              <span>05 Jul 2018 | </span> <a href="#" title="22 Top Tips for this Plastic Free July">Read More &gt;</a>
+                           </div>
+                        </div>
+                        <hr>
+                        <div class="popular-post">
+                           <div class="post-img"> <a href="#"> <img src="images/6_WaysCover-45x45.png" class="img img-responsive" alt="6 Ways to Travel Without Buying Water."> </a> </div>
+                           <div class="post-detail">
+                              <h3><a href="#">6 Ways to Travel Without Buying Water.</a></h3>
+                              <span>12 Jul 2018 | </span> <a href="#">Read More &gt;</a> 
+                           </div>
+                        </div>
+                        <hr>
+                        <div class="popular-post">
+                           <div class="post-img"> <a href="#"> <img src="images/moving_toward_a_plastic-free_world-3-45x45.png" class="img img-responsive"> </a> </div>
+                           <div class="post-detail">
+                              <h3 class="title"> <a href="#">Dianna Cohen - Moving Toward a Plastic-Free World - Pt 1</a></h3>
+                              <span>06 Jan 2017 | </span> <a href="#">Read More &gt;</a> 
+                           </div>
+                        </div>
+                        <hr>
+                        <div class="popular-post">
+                           <div class="post-img"> <a href="#"> <img src="images/A_coffee_with_costa-45x45.jpg" class="img img-responsive" alt="A Chat with Costa Part I - The Aperture of Life"> </a> </div>
+                           <div class="post-detail">
+                              <h3 class="title"><a href="#">A Chat with Costa Part I - The Aperture of Life</a> </h3>
+                              <span>02 Jun 2016 | </span> <a href="#">Read More &gt;</a> 
+                           </div>
+                        </div>
+                        <hr>
+                        <div class="popular-post">
+                           <div class="post-img"> <a href="#" title="Owed to Moose"> <img src="images/Ode_to_Moose-45x45.png" class="img img-responsive" alt="Owed to Moose"> </a> </div>
+                           <div class="post-detail">
+                              <h3 class="title"><a href="#">Owed to Moose</a></h3>
+                              <span>28 Jul 2016 | </span> <a style="font-size: 13px;" href="#" title="Owed to Moose">Read More &gt;</a> 
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="newsletter">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xs-12">
+                     <h3 class="section-title">Sign Up For Our Newsletter</h3>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-xs-12 text-center">
+                     <form action="" class="form-inline" validate>
+                        <div class="form-group">
+                           <input type="email" class="form-control" id="EMAIL" name="EMAIL" placeholder="Enter your email">
+                           <button type="submit" class="btn text-uppercase text-white">subscribe</button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="making-easy">
+            <div class="container">
+               <div class="row text-center">
+                  <div class="col-md-8 col-md-offset-2 col-sm-8 offset-md-0">
+                     <h4 class="">Making ethical eating easy</h4>
+                     <a href="#" class="btn grey-btn">Get the App</a>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-xs-12 text-center"><a href="#" class="footer-social-links"><i class="fa fa-facebook"></i></a><a href="#" class="footer-social-links"><i class="fa fa-twitter"></i></a><a href="#" class="footer-social-links"><i class="fa fa-instagram"></i></a><a href="#" class="footer-social-links"><i class="fa fa-pinterest"></i></a><a href="#" class="footer-social-links"><i class="fa fa-youtube"></i></a><a href="#" class="footer-social-links hidden-xs"><i class="fa fa-google"></i></a></div>
+            </div>
+            <div class="row">
+               <div class="col-xs-12"><a href="about_us.html" class="footer-links">About</a><a href="blog.html" class="footer-links">Articles</a><a href="contact.html" class="footer-links">Contact</a><a href="privacy-policy.html" class="footer-links">Privacy Policy</a><a href="terms-of-use.html" class="footer-links">Terms of Use</a></div>
+            </div>
+         </div>
+      </footer>
+      <script src="js/jquery-3.2.0.min.js"></script> 
+      <script src="js/bootstrap.min.js"></script> 
+      <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-561ceff8b3ca6f0b" async></script>
+   </body>
+</html>

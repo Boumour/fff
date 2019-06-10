@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+<title>Fair Food Forager</title>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/custom.css" media="all">
+</head>
+<body>
+<div class="main-wraper">
+  <header>
+    <div class="container-fluid">
+      <div class="navbar-header col-sm-12">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="img-responsive" alt=""></a>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="login.html">Login</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+      </div>
+      <!-- Globle Menu -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="wrapper">
+          <form class="navbar-form navbar-left hidden-xs pull-right" >
+            <div class="form-group">
+              <input type="text" class="form-control" name="keywords">
+              <img src="images/search-icon.png" class="img-responsive" alt="" /></div>
+          </form>
+          <ul class="nav navbar-nav pull-right">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                aria-expanded="false">about<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Join the Movement</a></li>
+                <li><a href="#">Suggest a Venue</a></li>
+                <li><a href="#">Get Involved</a></li>
+                <li><a href="#">Media</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                aria-expanded="false">Articles<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#">Recipes</a></li>
+              </ul>
+            </li>
+            <li><a href="app-page.html">APP</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="content-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-offset-2 col-sm-8 col-xs-12">
+
+							<h1 class="h2">Register an Account</h1>
+							<div class="addthis_sharing_toolbox"></div>
+
+							<p>Please register so that you can add, rate and comment on the food venues you have visited.</p>
+
+<p>Tell your&nbsp;friends to check out your Fair Food Forager listing(s) and post a comment.</p>
+
+<p>"Don&#39;t eat crap, USE the app"</p>
+
+<p>Happy Foraging.&nbsp;</p>
+
+							
+
+
+							<form action="" class="form-horizontal" method="post" >
+								
+							    <div class="form-group">
+							        <label for="nickname" class="col-sm-4 col-xs-12 control-label">Nickname</label>
+							        <div class="col-sm-8 col-xs-12">
+							            <input type="text" class="form-control" id="nickname" name="nickname" placeholder="Nickname" required>
+							        </div>
+							    </div>
+							    <div class="form-group">
+							        <label for="email" class="col-sm-4 col-xs-12 control-label">Email Address</label>
+							        <div class="col-sm-8 col-xs-12">
+							            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+							        </div>
+							    </div>
+							    <div class="form-group">
+							        <label for="password" class="col-sm-4 col-xs-12 control-label">Password</label>
+							        <div class="col-sm-8 col-xs-12">
+							            <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+										<small><strong>Leave blank to have a password generated and emailed to you.</strong></small>
+										
+							        </div>
+							    </div>
+							    <div class="form-group">
+							        <label for="first_name" class="col-sm-4 col-xs-12 control-label">First Name</label>
+							        <div class="col-sm-8 col-xs-12">
+							            <input type="text" class="form-control" id="first_name" name="first_name" placeholder="First Name" required>
+							        </div>
+							    </div>
+							    <div class="form-group">
+							        <label for="surname" class="col-sm-4 col-xs-12 control-label">Last Name</label>
+							        <div class="col-sm-8 col-xs-12">
+							            <input type="text" class="form-control" id="surname" name="surname" placeholder="Last Name" required>
+							        </div>
+							    </div>
+							    <div class="form-group">
+							        <label for="avatar" class="col-sm-4 col-xs-12 control-label">Avatar/Profile Picture</label>
+							        <div class="col-sm-8 col-xs-12">
+							            <input type="file" class="form-control" id="avatar" name="avatar" placeholder="Avatar">
+							        </div>
+							    </div>
+								
+							    <div class="form-group">
+							        <label for="last_name" class="col-sm-4 col-xs-12 control-label">Preferred Currency</label>
+							        <div class="col-sm-8 col-xs-12">
+							            <select class="form-control" id="currency" name="currency" required>
+											<option value="AUD">AUD</option>
+											<option value="CAD">CAD</option>
+											<option value="GBP">GBP</option>
+											<option value="NZD">NZD</option>
+											<option value="SGD">SGD</option>
+											<option value="USD">USD</option>
+										</select>
+							        </div>
+							    </div>
+								
+							   
+								
+							    <div class="form-group">
+							        <div class="col-sm-offset-4 col-sm-8 col-xs-12">
+							            <button type="submit" class="btn btn-default">Register</button>
+										<p>Already have an account? <a href="login.html">Login Here</a></p>
+							        </div>
+							    </div>
+							</form>
+							
+							<p>You can now search anywhere, or suggest great places that will&nbsp;help others&nbsp;on the hunt for a better food system.&nbsp;</p>
+
+<p>Please note:</p>
+
+<p>Check the terms "Forager Law", for a few things that listed businesses need to be doing. No one is&nbsp;perfect, effort is what its all about.</p>							
+
+						</div>
+      </div>
+    </div>
+  </section>
+  <section class="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h3 class="section-title">Sign Up For Our Newsletter</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <form action="" class="form-inline" validate>
+            <div class="form-group">
+              <input type="email" class="form-control" id="EMAIL" name="EMAIL" placeholder="Enter your email">
+              <button type="submit" class="btn text-uppercase text-white">subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="making-easy">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-8 col-md-offset-2 col-sm-8 offset-md-0">
+          <h4 class="">Making ethical eating easy</h4>
+          <a href="#" class="btn grey-btn">Get the App</a></div>
+      </div>
+    </div>
+  </section>
+</div>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center"><a href="#" class="footer-social-links"><i class="fa fa-facebook"></i></a><a href="#" class="footer-social-links"><i class="fa fa-twitter"></i></a><a href="#" class="footer-social-links"><i class="fa fa-instagram"></i></a><a href="#" class="footer-social-links"><i class="fa fa-pinterest"></i></a><a href="#" class="footer-social-links"><i class="fa fa-youtube"></i></a><a href="#" class="footer-social-links hidden-xs"><i class="fa fa-google"></i></a></div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12"><a href="about_us.html" class="footer-links">About</a><a href="blog.html" class="footer-links">Articles</a><a href="contact.html" class="footer-links">Contact</a><a href="privacy-policy.html" class="footer-links">Privacy Policy</a><a href="terms-of-use.html" class="footer-links">Terms of Use</a></div>
+    </div>
+  </div>
+</footer>
+<script src="js/jquery-3.2.0.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-561ceff8b3ca6f0b" async></script>
+</body>
+</html>
